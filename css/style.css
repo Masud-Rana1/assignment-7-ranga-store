@@ -8,10 +8,7 @@ body {
   padding: 5px;
   outline: none;
 }
-.search-field:hover {
-  outline: none;
-  border: none;
-}
+
 .search-box {
   border: 1px solid rgb(3, 118, 211);
   width: 281px;
@@ -42,7 +39,8 @@ body {
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid rgb(200, 221, 230);
+  background-color: rgb(179, 238, 179);
 }
 .product-image {
   width: 150px;
@@ -83,4 +81,8 @@ body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+}
+/* title color */
+.title-color{
+  color: #15b2ce;;
 }
